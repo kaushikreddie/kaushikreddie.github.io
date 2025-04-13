@@ -279,3 +279,15 @@ footer {
 .contact-form input[type="submit"]:hover {
   background-color: #005f86;
 }
+#education ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  margin-top: 1rem;
+  color: #333;
+}
+
+#education li {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  line-height: 1.5;
+}
