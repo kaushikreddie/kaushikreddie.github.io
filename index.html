@@ -1,85 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Kaushik Gangireddy's Software Engineer Portfolio showcasing skills, projects, and experience.">
-    <meta name="keywords" content="Kaushik Gangireddy, software engineer, backend developer, full-stack, Java, Python, AWS">
-    <meta name="author" content="Kaushik Gangireddy">
-    <title>Kaushik Gangireddy | Software Engineer Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kaushik Gangireddy | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Header Section -->
     <header>
-        <div class="container">
+        <div class="container header-flex">
+          <div class="header-text">
             <h1>Kaushik Gangireddy</h1>
-            <p>Software Engineer | Backend Developer | Full-Stack Developer</p>
+            <p>Software Engineer | Backend Developer | Full-Stack Developer | Ex-Automation Tester</p>
             <nav>
-                <ul>
-                    <li><a href="#about">About Me</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
+              <a href="#about">About</a>
+              <a href="#projects">Projects</a>
+              <a href="#resume">Resume</a>
+              <a href="#contact">Contact</a>
             </nav>
-        </div>
-    </header>
-
-    <!-- About Me Section -->
-    <section id="about">
-        <div class="container">
-            <h2>About Me</h2>
-            <p>I'm Kaushik, a passionate Software Engineer with experience in full-stack and backend development. I specialize in Java, Python, and JavaScript and have hands-on experience with REST APIs, databases, and cloud technologies.</p>
-        </div>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects">
-        <div class="container">
-            <h2>Projects</h2>
-            <div class="project">
-                <h3>To-Do App (Java)</h3>
-                <p>A basic To-Do app to apply my learning of arrays, loops, and user input handling in Java.</p>
-                <a href="https://github.com/kaushikreddie/ToDoApp" target="_blank">View the Code</a>
+            <div class="social-links">
+              <a href="https://www.linkedin.com/in/kaushik-gangireddy-2b985b271/" target="_blank" class="social-icon">LinkedIn</a>
+              <a href="https://github.com/kaushikreddie" target="_blank" class="social-icon">GitHub</a>
             </div>
-            <div class="project">
-                <h3>Calculator App (Java)</h3>
-                <p>Applying my basic learning of arithmetic operators through this simple calculator app.</p>
-                <a href="https://github.com/kaushikreddie/MyCalculator" target="_blank">View the Code</a>
-            </div>
+          </div>
+          <div class="header-pic">
+            <img src="images/profile.jpg" alt="Kaushik Profile Picture" class="header-img">
+          </div>
         </div>
-    </section>
+      </header>
+      
+      
+      
+  <section id="about" class="section">
+    <div class="container about">
 
-    <!-- Skills Section -->
-    <section id="skills">
-        <div class="container">
-            <h2>Skills</h2>
-            <ul>
-                <li>Java, Python, JavaScript</li>
-                <li>REST API Development</li>
-                <li>AWS, Google Cloud</li>
-                <li>PostgreSQL, NoSQL</li>
-                <li>Docker, Kubernetes</li>
-                <li>Test Automation (Selenium, Cucumber, Jest)</li>
-            </ul>
+      <div>
+        <h2>About Me</h2>
+        <p>
+            I am a passionate Software Engineer currently pursuing my Master’s in Computer Science at Lewis University, with a strong foundation in backend and full-stack development. My career journey began as a Software Test Engineer at AnywhereWorks Inc., where I automated functional and regression tests using Selenium, Cucumber, and JavaScript. This work led to a 60% reduction in manual testing efforts and significantly improved software reliability.
+
+            As I transition into backend development and cloud technologies, I’ve been deepening my skills in Java, Python, and JavaScript. I specialize in building scalable applications and APIs, and I am particularly passionate about exploring cloud platforms such as AWS. My ultimate goal is to combine my testing experience and current development expertise to deliver high-quality, scalable software solutions.
+            
+            I’m excited to continue growing as a full-stack developer and to leverage my diverse skill set to build innovative applications that make a real impact.
+            
+            
+        </p>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="section alt-bg">
+    <div class="container">
+      <h2>🧰 Skills</h2>
+      <div class="skills">
+        <span>Java</span><span>Python</span><span>JavaScript</span>
+        <span>React</span><span>Node.js</span><span>PostgreSQL</span>
+        <span>AWS</span><span>Docker</span><span>CI/CD</span>
+        <span>Selenium</span><span>Cucumber</span><span>Power BI</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="section">
+    <div class="container">
+      <h2>🚀 Projects</h2>
+      <div class="projects">
+        <div class="project-card">
+          <h3>Java Calculator</h3>
+          <p>Applying my basic learning of arithmetic operators.</p>
+          <a href="https://github.com/kaushikreddie/MyCalculator" target="_blank">View on GitHub</a>
         </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact">
-        <div class="container">
-            <h2>Contact</h2>
-            <p>Feel free to reach out to me via email at <a href="mailto:kaushikgangireddy@gmail.com">kaushikgangireddy@gmail.com</a></p>
+        <div class="project-card">
+          <h3>To-Do App</h3>
+          <p>Basic To-Do app to apply my learning on arrays and input loops.</p>
+          <a href="https://github.com/kaushikreddie/TodoApp" target="_blank">View on GitHub</a>
         </div>
-    </section>
+      </div>
+    </div>
+  </section>
 
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <p>&copy; 2025 Kaushik Gangireddy</p>
-        </div>
-    </footer>
+  <section id="resume" class="section alt-bg">
+    <div class="container">
+      <h2>📄 Resume</h2>
+      <p>You can download my resume using the button below:</p>
+      <a href="resume.pdf" class="btn" download>Download Resume</a>
+    </div>
+  </section>
 
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>🌐 Contact</h2>
+      <p>Email: <a href="mailto:kaushikgangireddy@gmail.com">kaushikgangireddy@gmail.com</a></p>
+      <p>Phone: <a href="tel:+13314310545">(331) 431-0545</a></p>
+      <p>
+        <a href="https://github.com/kaushikreddie" target="_blank">GitHub</a> |
+        <a href="https://www.linkedin.com/in/kaushik-gangireddy-2b985b271/" target="_blank">LinkedIn</a>
+      </p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Kaushik Gangireddy. All rights reserved.</p>
+  </footer>
 </body>
 </html>
